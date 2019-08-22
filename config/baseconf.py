@@ -37,7 +37,6 @@ html_static_path = ['_static']
 # Load Algolia DocSearch CSS
 html_css_files = [
   'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css',
-  'https://raw.githubusercontent.com/astera-software/astera_rtd_theme/master/config/astera.css',
   'css/custom.css'
 ]
 
@@ -60,7 +59,7 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
-master_doc = 'cardinality-errors-faqs'
+master_doc = 'index'
 
 
 html_favicon = '_static/images/favicon.ico'
