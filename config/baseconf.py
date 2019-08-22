@@ -32,7 +32,7 @@ templates_path = ['_templates']
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 # html_extra_path = ['_raw']
-html_static_path = ['_static','_common/algolia']
+html_static_path = ['_static']
 
 # Load Algolia DocSearch CSS
 html_css_files = [
