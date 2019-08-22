@@ -59,7 +59,7 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
-master_doc = 'index'
+master_doc = 'ind'
 
 
 html_favicon = '_static/images/favicon.ico'
