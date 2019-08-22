@@ -36,8 +36,8 @@ html_static_path = ['_static']
 
 # Load Algolia DocSearch CSS
 html_css_files = [
-  'algolia.css',
   'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css',
+  'https://raw.githubusercontent.com/astera-software/astera_rtd_theme/master/config/astera.css'
   'css/custom.css'
 ]
 
@@ -45,7 +45,7 @@ html_css_files = [
 # defined below (external first) is intentional!
 html_js_files = [
   ('https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js', {'defer': 'defer'}),
-  ('algolia.js', {'defer': 'defer'})
+  ('https://raw.githubusercontent.com/astera-software/astera_rtd_theme/master/config/algolia.js', {'defer': 'defer'})
 ]
 
 # List of patterns, relative to source directory, that match files and

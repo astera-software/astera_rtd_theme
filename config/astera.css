@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+
+/* Hide "On GitHub" section from versions menu */
+div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(4) {
+    display: none;
+}
+
+h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, * {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wy-nav-side {
+    background: #f8f8f8;
+}
+
+.wy-menu-vertical a {
+    color: #555555;
+}
+
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+    color: #000;
+}
+
+.wy-side-nav-search {
+    background-color: #f8f8f8;
+}
+
+.wy-side-nav-search > div.version {color: #555555;}
+
+div#knowledgebase-toc {
+    display: none;
+}
+
+
+.wy-menu-vertical a:hover {
+    background-color: transparent;
+    color: #000;
+}
+h1 {
+    font-weight: 300;
+}
+.wy-menu-vertical li.toctree-l1.current>a {
+    color: #174589;
+}
+.wy-menu-vertical li.toctree-l1 +li {
+    border-top: 1px solid #ededed;
+}
+
+.wy-menu-vertical ul {
+    padding: 0 28px;
+}
+
+.wy-menu-vertical>a {
+    padding-right: 0;
+}
+
+.wy-menu-vertical li.toctree-l1:before {content: '';display: block;width: 6px;height: 6px;background: #585858;border-radius: 100%;position: absolute;left: 0;top: 16px;}
+
+.wy-menu-vertical li.toctree-l1 {
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.wy-side-nav-search input[type=text] {
+    border-color: #ccc;
+}
