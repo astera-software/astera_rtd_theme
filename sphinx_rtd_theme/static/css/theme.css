@@ -12,7 +12,7 @@ div.rst-versions > div.rst-other-versions > div.injected {
     font-size: 0;
 }
 div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(1) {
-    font-size: 14.4;
+    font-size: 14.4px;
 }
 
 h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, * {
