@@ -38,7 +38,6 @@ html_static_path = ['_static']
 
 # Load Algolia DocSearch CSS
 html_css_files = [
-  'https://raw.githubusercontent.com/astera-software/astera_rtd_theme/master/config/custom.css',
   'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css'
 ]
 
