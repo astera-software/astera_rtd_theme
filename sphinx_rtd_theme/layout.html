@@ -12,6 +12,18 @@
 <!--[if IE 8]><html class="no-js lt-ie9" lang="{{ lang_attr }}" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="{{ lang_attr }}" > <!--<![endif]-->
 <head>
+		  <script>
+		  docsearch({
+			  apiKey: '86d846db5ca8a867c50728ae3988a564',
+			  indexName: 'astera',
+			  // Replace inputSelector with a CSS selector
+			  // matching your search input
+			  inputSelector: '#rtd-search-form input[type=text]',
+			  // Set debug to true if you want to inspect the dropdown
+			  debug: false,
+				algoliaOptions: { 'facetFilters': ["lang:en"], 'hitsPerPage': 8 }, 
+			});
+		  </script>
   <meta charset="utf-8">
   {{ metatags }}
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -140,18 +152,6 @@
           {% endif %}
 		  
           {% include "searchbox.html" %}
-		  <script>
-		  docsearch({
-			  apiKey: '86d846db5ca8a867c50728ae3988a564',
-			  indexName: 'astera',
-			  // Replace inputSelector with a CSS selector
-			  // matching your search input
-			  inputSelector: '#rtd-search-form input[type=text]',
-			  // Set debug to true if you want to inspect the dropdown
-			  debug: false,
-				algoliaOptions: { 'facetFilters': ["lang:en"], 'hitsPerPage': 8 }, 
-			});
-		  </script>
           {% endblock %}
         </div>
 
