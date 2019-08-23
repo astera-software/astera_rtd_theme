@@ -43,7 +43,7 @@ html_css_files = [
 ]
 
 def setup(app):
-  app.add_css_file('css/custom.css')
+  app.add_css_file('https://raw.githubusercontent.com/astera-software/astera_rtd_theme/master/config/custom.css')
 
 # Load custom javascript to support Algolia search. Note that the sequence
 # defined below (external first) is intentional!
