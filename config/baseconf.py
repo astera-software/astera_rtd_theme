@@ -46,7 +46,7 @@ html_css_files = [
 # defined below (external first) is intentional!
 html_js_files = [
   ('https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js', {'defer': 'defer'}),
-  ('algolia.js', {'async': 'async'})
+  ('algolia.js', {'defer': 'defer'})
 ]
 
 # List of patterns, relative to source directory, that match files and
