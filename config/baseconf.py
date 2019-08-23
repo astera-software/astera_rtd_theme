@@ -20,6 +20,9 @@ import sys
 
 # -- General configuration ---------------------------------------------------
 
+def setup(app):
+  app.add_css_file('https://raw.githubusercontent.com/astera-software/astera_rtd_theme/master/config/custom.css')
+
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
