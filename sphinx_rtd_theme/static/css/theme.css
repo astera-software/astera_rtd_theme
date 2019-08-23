@@ -8,6 +8,10 @@ div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(2) {
 div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(3) {
     display: none;
 }
+div.rst-versions > div.rst-other-versions > div.injected {
+    font-size: 0;
+}
+
 
 h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, * {
 	font-family: 'Open Sans', sans-serif;
