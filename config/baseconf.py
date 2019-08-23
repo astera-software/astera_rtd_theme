@@ -45,8 +45,7 @@ html_css_files = [
 # Load custom javascript to support Algolia search. Note that the sequence
 # defined below (external first) is intentional!
 html_js_files = [
-  ('https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js', {'defer': 'defer'}),
-  ('algolia.js', {'defer': 'defer'})
+  ('https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js', {'defer': 'defer'})
 ]
 
 # List of patterns, relative to source directory, that match files and
