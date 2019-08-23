@@ -38,12 +38,11 @@ html_static_path = ['_static']
 
 # Load Algolia DocSearch CSS
 html_css_files = [
-  'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css',
   'https://raw.githubusercontent.com/astera-software/astera_rtd_theme/master/config/custom.css'
 ]
 
 def setup(app):
-  app.add_css_file('https://raw.githubusercontent.com/astera-software/astera_rtd_theme/master/config/custom.css')
+  app.add_css_file('css/custom.css')
 
 # Load custom javascript to support Algolia search. Note that the sequence
 # defined below (external first) is intentional!
