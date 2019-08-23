@@ -57,9 +57,7 @@ exclude_patterns = []
 
 # -- Options for HTML output -------------------------------------------------
 
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-#
+# The theme to use for HTML and HTML Help pages. sphinx_rtd_theme actually inherits from the astera_rtd_theme repository in the astera-software group, not the publicly available sphinx_rtd_theme.
 html_theme = 'sphinx_rtd_theme'
 master_doc = 'index'
 
