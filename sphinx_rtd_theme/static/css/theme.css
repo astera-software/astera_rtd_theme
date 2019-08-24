@@ -40,10 +40,12 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, * {
 }
 
 .wy-side-nav-search span.sitetitle a {
-	color: #555555;
+	color: #000;
 }
 
-.wy-side-nav-search > div.version {color: #555555;}
+.wy-side-nav-search > div.version {
+	color: #000;
+}
 
 
 div#knowledgebase-toc {
