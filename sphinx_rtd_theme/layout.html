@@ -134,9 +134,11 @@
               {%- set nav_version = current_version %}
             {% endif %}
             {% if nav_version %}
+			{% block versiondisplay}
               <div class="version">
                 {{ nav_version }}
               </div>
+			{% endblock %}
             {% endif %}
           {% endif %}
 
