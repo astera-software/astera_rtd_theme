@@ -36,6 +36,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, * {
 
 .wy-side-nav-search {
     background-color: #f8f8f8;
+	padding-bottom: 0px;
 }
 
 .wy-side-nav-search > div.version {color: #555555;}
