@@ -39,6 +39,10 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, * {
 	padding-bottom: 0px;
 }
 
+.wy-side-nav-search a {
+	color: black;
+}
+
 .wy-side-nav-search > div.version {color: #555555;}
 
 div#knowledgebase-toc {
