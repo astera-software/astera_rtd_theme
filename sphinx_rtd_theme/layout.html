@@ -116,7 +116,9 @@
           {% if logo and theme_logo_only %}
             <a href="{{ pathto(master_doc) }}">
           {% else %}
+			<span class="sitetitle">
             <a href="{{ pathto(master_doc) }}" class="icon icon-home" alt="{{ _("Documentation Home") }}"> {{ project }}
+			</span>
           {% endif %}
 
           {% if logo %}
