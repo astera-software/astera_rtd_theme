@@ -47,6 +47,11 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, * {
 	color: #000;
 }
 
+span.rst-current-version {
+	background: #f8f8f8;
+	color: black;
+}
+
 span.version-marker {
 	color: #2880b9;
 }
