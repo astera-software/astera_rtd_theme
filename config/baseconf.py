@@ -40,6 +40,7 @@ html_static_path = ['_static']
 html_css_files = [
   'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css',
   'css/custom.css'
+  'js/custom-funtions.js'
 ]
 
 # Load custom javascript to support Algolia search. Note that the sequence
