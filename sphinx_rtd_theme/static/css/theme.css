@@ -88,7 +88,7 @@ h1 {
 .wy-side-nav-search input[type=text] {
     border-color: #ccc;
 }
-#welcome-to-astera-sofware-help-documentation li {
+#welcome-to-astera-software-help-documentation li {
     list-style: none;
     margin: 0;
     width: 49%;
@@ -98,14 +98,14 @@ h1 {
     border-left: 5px solid #4d689c;
 }
 
-#welcome-to-astera-sofware-help-documentation li:first-child,#welcome-to-astera-sofware-help-documentation li:nth-child(3) {
+#welcome-to-astera-software-help-documentation li:first-child,#welcome-to-astera-software-help-documentation li:nth-child(3) {
     margin-right: 2%;
 }
 
-#welcome-to-astera-sofware-help-documentation li:first-child, #welcome-to-astera-sofware-help-documentation li:nth-child(2) {
+#welcome-to-astera-software-help-documentation li:first-child, #welcome-to-astera-software-help-documentation li:nth-child(2) {
     margin-bottom: 3%;
 }
-#welcome-to-astera-sofware-help-documentation li a {
+#welcome-to-astera-software-help-documentation li a {
     display: inline-block;
     width: 100%;
     height: 100%;
@@ -114,7 +114,7 @@ h1 {
     font-weight: 600;
     font-size: 18px;
 }
-#welcome-to-astera-sofware-help-documentation ul.simple {float: left;width: 100%;}
+#welcome-to-astera-software-help-documentation ul.simple {float: left;width: 100%;}
 .document {
     float: left;
     width: 100%;
@@ -123,7 +123,7 @@ h1 {
 footer {
     clear: both;
 }
-#welcome-to-astera-sofware-help-documentation li {
+#welcome-to-astera-software-help-documentation li {
     background: url(/en/latest/_static/images/b-arrow.png) no-repeat;
     background-position: 302px 118px;
 }
